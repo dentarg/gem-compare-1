@@ -63,8 +63,8 @@ class Gem::Comparator
 
       file_permissions ^= 020 if ignore_group_writable
 
-      unless file_permissions == 0100644 || \
-          (DirUtils.gem_bin_file?(file) && file_permissions == 0100755)
+      unless format_permissions(file_permissions) == '100644' || \
+          (DirUtils.gem_bin_file?(file) && format_permissions(file_permissions) == '100755')
         return "  (!) Unexpected permissions: #{formatted_file_permissions}"
       end
       ''
