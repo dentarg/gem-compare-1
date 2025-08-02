@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../test_helper'
 require_relative 'mock_gem_ui'
 require 'rubygems/user_interaction'
