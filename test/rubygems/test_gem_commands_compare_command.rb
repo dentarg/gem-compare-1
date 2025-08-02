@@ -1,6 +1,6 @@
 require_relative '../test_helper'
+require_relative 'mock_gem_ui'
 require 'rubygems/user_interaction'
-require 'rubygems/mock_gem_ui'
 require 'rubygems/commands/compare_command'
 
 class TestGemCommandsCompareCommand < Minitest::Test
