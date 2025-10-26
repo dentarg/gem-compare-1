@@ -72,7 +72,7 @@ class Gem::Commands::CompareCommand < Gem::Command
 
   def description # :nodoc:
     desc = <<-EOF
-           gem-compare is a RubyGems plugin that compares versions of the given gem.
+           skillnad is a RubyGems plugin that compares versions of the given gem.
            It searches for differences in metadata as well as in files.
     EOF
     return desc.gsub(/^\s+/, '')

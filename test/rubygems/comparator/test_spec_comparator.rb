@@ -48,19 +48,19 @@ class TestSpecComparator < TestGemComparator
   def test_summary_comparison
     assert_equal 'DIFFERENT summary:', @report['summary'].header.data
     assert_equal 'DIFFERENT summary:', @report['summary'].lines(0)
-    assert_equal '0.0.1: lorem is a gem for testing gem-compare', @report['summary'].lines(1)
-    assert_equal '0.0.2: lorem is a gem for testing gem-compare', @report['summary'].lines(2)
-    assert_equal '0.0.3: lorem is a gem for testing gem-compare', @report['summary'].lines(3)
-    assert_equal '0.0.4: lorem is a gem for testing gem-compare plugin', @report['summary'].lines(4)
+    assert_equal '0.0.1: lorem is a gem for testing skillnad', @report['summary'].lines(1)
+    assert_equal '0.0.2: lorem is a gem for testing skillnad', @report['summary'].lines(2)
+    assert_equal '0.0.3: lorem is a gem for testing skillnad', @report['summary'].lines(3)
+    assert_equal '0.0.4: lorem is a gem for testing skillnad plugin', @report['summary'].lines(4)
   end
   
   def test_description_comparison
     assert_equal 'DIFFERENT description:', @report['description'].header.data
     assert_equal 'DIFFERENT description:', @report['description'].lines(0)
-    assert_equal '0.0.1: lorem changes a lot so we can test gem-compare a lot', @report['description'].lines(1)
-    assert_equal '0.0.2: lorem changes a lot so we can test gem-compare a lot', @report['description'].lines(2)
-    assert_equal '0.0.3: lorem changes a lot so we can test gem-compare a lot', @report['description'].lines(3)
-    assert_equal '0.0.4: lorem changes a lot so we can test gem-compare plugin a lot', @report['description'].lines(4)
+    assert_equal '0.0.1: lorem changes a lot so we can test skillnad a lot', @report['description'].lines(1)
+    assert_equal '0.0.2: lorem changes a lot so we can test skillnad a lot', @report['description'].lines(2)
+    assert_equal '0.0.3: lorem changes a lot so we can test skillnad a lot', @report['description'].lines(3)
+    assert_equal '0.0.4: lorem changes a lot so we can test skillnad plugin a lot', @report['description'].lines(4)
   end
   
   def test_homepage_comparison

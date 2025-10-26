@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Lorem::VERSION
   spec.authors       = ["Josef Stribny"]
   spec.email         = ["jstribny@redhat.com"]
-  spec.summary       = "lorem is a gem for testing gem-compare"
-  spec.description   = "lorem changes a lot so we can test gem-compare a lot"
+  spec.summary       = "lorem is a gem for testing skillnad"
+  spec.description   = "lorem changes a lot so we can test skillnad a lot"
   spec.homepage      = ""
   spec.license       = "MIT"
 

@@ -32,7 +32,7 @@ class Gem::Comparator
   # Creates temporal directory if the gem files shouldn't be kept
 
   def initialize(options)
-    info "gem-compare in #{VERSION}"
+    info "skillnad in #{VERSION}"
 
     unless options[:keep_all]
       options[:output] = Dir.mktmpdir
